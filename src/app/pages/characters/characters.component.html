@@ -1,0 +1,9 @@
+<h1>Pokemones</h1>
+<div class="characters">
+@for (character of characters; track characters.id) {
+<div>
+    <h3> {{character.name}}</h3>
+    <p> {{character.species}}</p>
+</div>
+}
+</div>
