@@ -1,9 +1,11 @@
 <h1>Pokemones</h1>
 <div class="characters">
 @for (character of characters; track characters.id) {
-<div>
-    <h3> {{character.name}}</h3>
-    <p> {{character.species}}</p>
+<div class="character">
+    <h3> {{ character.name }}</h3>
+    <p>Status: {{ character.status }}</p>
+    <p>Specie: {{ character.species }}</p>
+    <img [src] = "character.image" alt="imagen de {{character.name}}">
 </div>
 }
 </div>
