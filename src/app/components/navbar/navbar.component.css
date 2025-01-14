@@ -1,13 +1,14 @@
 nav {
-    background-color: #333;
+    background-color: rgb(13, 239, 47);
     padding: 1rem;
 }
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
